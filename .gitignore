@@ -22,3 +22,6 @@ data/
 
 # Но .gitkeep оставляем — чтобы структура папок сохранилась в Git
 !.gitkeep
+
+# Qdrant runtime data (воспроизводится автоматически)
+qdrant_storage/
