@@ -1,0 +1,24 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Data (не коммитим PDF и обработанные данные)
+data/
+*.pdf
+*.docx
+
+# Env variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Но .gitkeep оставляем — чтобы структура папок сохранилась в Git
+!.gitkeep
