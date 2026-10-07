@@ -25,3 +25,9 @@ data/
 
 # Qdrant runtime data (воспроизводится автоматически)
 qdrant_storage/
+# Ragas results (генерируется)
+eval/ragas_results.csv
+eval/ragas_results_*.csv
+
+# Временные скрипты
+check_*.py
